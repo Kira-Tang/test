@@ -1,0 +1,37 @@
+<div class="container" class="col-sm-4" width='50px'>
+<form class="text-center border border-light p-5">
+    <div id = "address" class = 'form-group'>
+        <span>street address</span><br>
+        <input class="form-control"  id = "streetAddress"  type = "text" (focusout)="checkEmpty1()"><br>
+        <span id="street">*Please enter your street address</span>  <br>
+        
+        <span>state</span><br>
+        <input class="form-control" id = "state"  type = "text" (focusout)="checkEmpty2()"><br>
+        <span id="STATE">*Please enter your state</span><br>
+        
+        <span>country</span><br>
+        <input  class="form-control" id = "country"  type = "text" (focusout)="checkEmpty3()"><br>
+        <span id="COUNTRY">*Please enter your country</span><br>
+        
+        <button class = 'btn btn-primary' id='nextBtn' type = "button"    (click)="nextPart()">
+            Next
+        </button>
+    </div>
+
+    <div id = "payment" class = 'form-group'>
+        <span>Card number</span><br>
+        <input class="form-control" id = "cardNumber"   type = "text" (focusout)="checkEmpty4()"><br>
+        <span id = "cardN">*Please enter your card number</span><br>
+
+        <span>MM/YY</span><br>
+        <input class="form-control" id = "MM/YY" type = "text" (focusout)="checkEmpty5()"><br>
+        <span id="Date">*Please enter your card expiration date</span><br>
+
+        <span>Verification code</span><br>
+        <input class="form-control" id = "veriCode"  type = "text" (focusout)="checkEmpty6()"><br>
+        <span id="Vericode">*Please enter your verification code</span><br>
+
+        <button  id='submitBtn' class = 'btn btn-primary' (click)="submit()">Done</button>
+    </div>
+</form>
+</div>

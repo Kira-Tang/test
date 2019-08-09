@@ -1,0 +1,44 @@
+#address{
+    display : block;
+}
+
+
+#payment{
+    display : none;
+}
+
+#street{
+    font-size: 10px;
+    color: red;
+    display : none;
+}
+
+#STATE{
+    font-size: 10px;
+    color:red;
+    display : none;
+}
+
+#COUNTRY{
+    font-size: 10px;
+    color: red;
+    display : none;
+}
+
+#cardN{
+    font-size: 10px;
+    color: red;
+    display : none;
+}
+
+#Date{
+    font-size: 10px;
+    color:red;
+    display : none;
+}
+
+#Vericode{
+    font-size: 10px;
+    color: red;
+    display : none;
+}
